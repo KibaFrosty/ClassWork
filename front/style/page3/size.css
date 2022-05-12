@@ -1,0 +1,14 @@
+html {
+    font-size: 10px;
+}
+
+li {
+    font-size: 2rem;
+}
+
+.main {
+    background-color: plum;
+    
+    width: 50vw;
+    height: 100vh;
+}

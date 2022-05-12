@@ -1,0 +1,72 @@
+* {
+    color: blueviolet;
+}
+
+p{
+    color:aqua;
+}
+
+h1{
+    color:bisque
+}
+
+.heading1{
+    color: chartreuse;
+}
+
+.heading2 {
+    color: cornflowerblue;
+}
+
+.heading1{
+    text-decoration: underline;
+}
+.heading2{
+    text-decoration: uppercase;
+}
+.fz20 {font-size: 20px;}
+
+#heading3
+#heading4{
+    font-size: 40px;
+    border: 1px solid
+    cornflowerblue;
+}
+.q {color: cyan;}
+
+.simple {color: darkorange;}
+
+q.simple{
+    color: darkmagenta;
+}
+
+body q.simple{
+    color: rgb(43, 255, 0);
+}
+
+h4,
+h5,
+span {font-weight: 300;}
+
+div p {color: plum;}
+
+div p span {
+    color: tomato;
+}
+
+ul li > span {color: skyblue;
+font-weight: bold;}
+
+ul li+li{
+    color: springgreen;
+}
+
+a [target] {background-color: yellow;}
+
+a[href="https://"] {
+   background-color: slategray;
+}
+
+a [href*".by"] {
+    background-color: rgb(201, 245, 39);
+}

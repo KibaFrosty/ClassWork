@@ -1,0 +1,9 @@
+@font-face {
+    font-family: latolite;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: latobold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+body{font-family: latolite;}

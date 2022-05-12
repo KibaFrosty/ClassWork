@@ -1,0 +1,33 @@
+p {
+    padding: 10px;
+    background-color: plum;
+    color: aqua;
+}
+
+.text_one {
+    background-color: cadetblue;
+    color: black;
+
+    border: none !important;
+}
+
+#text2 {
+    background-color: blueviolet;
+    border: 4px solid black;
+}
+
+p{
+    background-color: blue;
+}
+
+body {
+    margin: 50px;
+
+    color: green;
+    border: 3px solid black;
+}
+
+p {
+    margin: inherit;
+    border: inherit;
+}
