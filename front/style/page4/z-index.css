@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+}
+
+/* .section {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+.modal {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: cornflowerblue;
+    color: white;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 2;
+} */
+
+
+.section {
+    position: relative;
+    max-width: 800px;
+    min-height: 11.5rem;
+    margin: 0 auto;
+    padding: 2rem;
+
+    text-align: center;
+    background: plum;
+}
+
+.img {
+    position: absolute;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.img1 {
+    left: 1rem;
+    transition: all .5s;
+}
+
+.img2 {
+    left: 5rem;
+    transition: all .5s;
+}
+
+.img3 {
+    left: 10rem;
+    transition: all .5s;
+}
+
+.img4 {
+    left: 15rem;
+    transition: all .5s;
+}
+
+.img1:hover {
+    z-index: 1;
+    transform: translateY(10px);
+    transition: all .5s;
+}
+
+.img2:hover {
+    z-index: 1;
+    transform: translateX(10px);
+    transition: all .5s;
+}
+
+.img3:hover {
+    z-index: 1;
+    transform: translateY(10px);
+    transition: all .5s;
+}
+
+.img4:hover {
+    z-index: 1;
+    transform: translateX(10px);
+    transition: all .5s;
+}

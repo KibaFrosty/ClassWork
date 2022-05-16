@@ -1,0 +1,31 @@
+.wrapper1,
+.wrapper2,
+.item {
+    padding: 20px;
+
+    color: white;
+}
+
+.wrapper {
+    background-color: rgb(161, 60, 255);
+    overflow: auto;
+}
+
+
+.wrapper2 {
+    background-color: rgb(22, 255, 112);
+}
+
+.item1 {
+    background-color: aqua;
+    float: left;
+}
+
+.item2 {
+    background-color: blue;
+}
+
+.item3 {
+    background-color: coral;
+    float: right;
+}
