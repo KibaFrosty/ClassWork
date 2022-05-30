@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+
+.product {
+    position: relative;
+    width: calc(100%/4);
+    margin: 1rem;
+    padding: .5rem;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: #000;
+    
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ves {
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: larger;
+    font-style: italic;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 10rem;
+    background-color: coral;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    flex-direction: row-reverse;
+
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 5rem;
+    height: 5rem;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    align-content: flex-start;
+    
+}
+
+.block1 {
+    background-color: blueviolet;
+}
+
+.block2 {
+    background-color: aqua;
+    height: 6rem;
+}
+
+.block3 {
+    background-color: plum;
+}
+
+.block4 {
+    background-color: chartreuse;
+    height: 8rem;
+}
