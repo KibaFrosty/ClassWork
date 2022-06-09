@@ -1,0 +1,149 @@
+.block {
+    padding: 2rem;
+    background-color: antiquewhite;
+}
+
+.block_element {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 0;
+
+    background: rgb(139, 243, 255);
+
+    animation-name: element-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+/* .block:hover .block_element {
+    animation-play-state: paused;
+} */
+
+.block_element:hover {
+    animation-play-state: paused;
+}
+
+
+
+
+@keyframes element-animation {
+    0% {
+        left: 0;
+    }
+    50% {
+        background: rgb(218, 137, 255);
+    }
+    100% {
+        left: 400px;
+    }
+}
+
+
+.block2 {
+    position: relative;
+    height: 16rem;
+    margin-top: 3rem;
+
+    background-color: aquamarine;
+}
+
+.anim2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+
+    background: rgb(139, 243, 255);
+    border-radius: 10px;
+
+    animation-name: element-animation1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-delay: 1.5s; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes element-animation1 {
+    0% {
+        width: 10px;
+        height: 70px;
+    }
+    50% {
+        background: rgb(218, 137, 255);
+        width: 100px;
+        height: 70px;
+    }
+    100% {
+        top: 40px;
+        width: 150px;
+        height: 70px;
+        background: paleturquoise;
+    }
+}
+
+.block3 {
+    position: relative;
+    height: 16rem;
+    margin-top: 3rem;
+    background-color: blueviolet;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 14px;
+
+    color: white;
+    background-color: black;
+
+    transform-origin: 50% 5em;
+    border-top: 3px solid orange;
+    border-radius: 10px;
+
+
+    animation-name: btn-animation;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn-animation {
+    0% {
+        transform: rotateZ(0);
+    }
+    10% {
+        transform: rotateZ(10deg);
+    }
+
+    20% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(10deg);
+    }
+
+    40% {
+        transform: rotateZ(-10deg);
+    }
+
+    50% {
+        transform: rotateZ(10deg);
+    }
+
+    100% {
+        transform: rotateZ(0);
+    }
+}
