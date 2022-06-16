@@ -1,0 +1,103 @@
+body {
+    margin-top: 15px !important;
+    background-image: linear-gradient(to right, #4b136b, #c01be9);
+}
+
+.register-left {
+    padding: 3rem;
+
+    color: white;
+    text-align: center;
+}
+
+.register-left p {
+    padding: 2rem 2rem 0;
+} 
+
+.register-left .btn-primary {
+    width: 12rem;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 1.5rem;
+
+    font-weight: 600;
+
+    color: #555555;
+    background: #f8f8f8;
+}
+
+.register-left .btn-primary:hover {
+    background: #4b136b;
+}
+
+.register-left img {
+    width: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 1.8rem;
+
+    animation: mover 1s infinite alternate;
+}
+
+.register-right {
+    padding: 5rem;
+
+    background: #f8f8f8;
+
+    border: none;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-right h2 {
+    margin-bottom: 1rem;
+
+    text-align: center;
+    color: #c01be9;
+}
+
+.register-form {
+    padding: 3rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    padding: 0.75rem !important;
+}
+
+.register-right .btn-primary {
+    float: right;
+
+    width: 12rem;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 1.5rem;
+
+    font-weight: 600;
+
+    color: white;
+    background: #4b136b;
+}
+
+.register-right .btn-primary:hover {
+    background-color: #c01be9;
+}
+
+.register-right .reset {
+    background: #b4279b;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-2rem);
+    }
+}
